@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "music_accompany"
+version = "0.1.0"
+description = "Convert, analyze, and play MusicXML and MIDI files"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+music21 = "^9.1.0"
+python-rtmidi = "^1.5.1"
+mido = "*"
+pyaudio="*"
+numpy = "<2.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
